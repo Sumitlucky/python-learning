@@ -1,3 +1,4 @@
+#function definition
 def avg():
   a = int(input("Enter your number: "))
   b = int(input("Enter your number: "))
@@ -6,4 +7,4 @@ def avg():
 
   average = (a+b+c)/3
   print(average)
-avg()
+avg() #function call
