@@ -1,0 +1,6 @@
+print("a")
+print("b")
+print("c")
+print("d")
+print("e" , end="")
+print("f ",end="")
