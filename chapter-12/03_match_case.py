@@ -7,6 +7,6 @@ def http_status(status):
     case 500:
       return "Internal Server Error"
     case _:
-      "Unknown status" # Usage print(http_status(200)) #Output:ok print(http_status(404)) # Not found print(http_status(500)) # Output : Internal server
+      return "Unknown status" # Usage print(http_status(200)) #Output:ok print(http_status(404)) # Not found print(http_status(500)) # Output : Internal server
 
 print(http_status(500))      
